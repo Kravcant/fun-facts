@@ -11,13 +11,24 @@ function App() {
 
   return (
     <div id="main">
+      <Header />
+      <div id="facts">
       <FunFactCard fact="Rabbits cannot vomit." />
       <FunFactCard fact="I frew up." />
       <FunFactCard fact="Ḧ̵̡̡͓̥͕̭̠͖̖̠͗̍͊̅̏̇e̶͚̜̖̩̙̗̬̱̐́̔͋ĺ̶͎̹͓̻̥͉̻̔̀̈́̋͋̄l̴̢̢̪͖̗̞͈̦̰͍̦̱̐̽͗ơ̵͖̩̠̑̈̽̄̎̏ ̸̨̛̠̺̭̲͓͓̦͕͖̋̓ͅh̶̛̻͈̩̹̓̒̈́ȋ̶̦̰̣͇͔̦̣̮͒̎̈͘͠ ̴̢̡̢̻̺͍̜͙͉̞̲͈͓̝̹̌̎̈̊̾̃͆I̷̛̛̯̝͉̒̃̑͒͋͛́͑́͛̏ ̵͇̦̜̲̲̖͇́́̅̍̂̔͗͋h̵̛̛̯̺̩͚̱͈̟̄̌͊̃́͂̀̓̄̃͘͜ư̷̼̗͍̬̩̯̔̈́͂͌̑̐̿͊̐͌͆̑͝m̶̨͇̫̖̳̹̗͐͆͜͠a̷̧̹͖̹̗̜͉͇͕̝̹̹̬͙̽n̷̖̼̠͎̙͌̈͌̃͂̋̐̆̽̊͂̔̃͑͝" />
       <FunFactCard fact="This is a fun fact [citation needed]." />
       <FunFactCard fact="Do not eat the spiderman burger from Burger King." />
+      </div>
     </div>
   )
+}
+
+function Header() {
+  return (
+    <h1>
+      Facts that are Fun !!
+    </h1>
+  );
 }
 
 export default App
